@@ -8,7 +8,7 @@
 
 body {
     background: #333;
-    color: #FFF;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,10 +16,12 @@ h2{
     font-size: 45px;
     font-weight: 300;
     margin: 10px;
+    transition: all 0.5s ease-in;
 }
 
 h2 span {
     font-size: 30px;
+    transition: all 0.5s ease-in;
 }
 
 .container{
@@ -60,17 +62,31 @@ h2 span {
 }
 
 .container > div:hover {
-    opacity: 0.7;
-    transform: scale(0.98);
+    background:url(/img/PC040132d.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    transform: scale(0.90);
+    font-size: 35px;
+
+
+    
+}
+
+.container > div:hover h2 {
+    font-size: 60px;
+}
+
+.container > div:hover h2 span {
+    font-size: 40px;
 }
 
 .bg1 {
-    background: url('https://i.ibb.co/dBLbrRV/bg1.jpg');
+    background: url(/img/PC040132.JPG);
 }
 
 .bg2 {
-    background: url('https://i.ibb.co/Fb5jb3J/bg2.jpg');
-    color: #333;
+    background: url(/img/PC040132.JPG);
+    
 }
 
 
